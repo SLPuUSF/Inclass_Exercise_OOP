@@ -26,13 +26,13 @@ namespace Inclass_Exercise_OOP
         // Create a class constructor for the Car class
         public Car()
         {
-            model = "Mustang"; // Set the initial value for model
+            model = "Mustang"; 
         }
 
         static void Main(string[] args)
         {
-            Car Ford = new Car();  // Create an object of the Car Class (this will call the constructor)
-            Console.WriteLine(Ford.model);  // Print the value of model
+            Car Ford = new Car();  
+            Console.WriteLine(Ford.model);
         }
     }
 
